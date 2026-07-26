@@ -1,0 +1,12 @@
+# Runtime dependencies for the Streamlit app (app.py) and 03_copilot_rag.py.
+# Streamlit Cloud installs from this file, so it is kept minimal — a heavier
+# list slows the build and risks the deploy timeout.
+#
+# For modeling, evaluation, and the notebooks:  pip install -r requirements-dev.txt
+
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.26.0
+pyarrow>=14.0.0
+sentence-transformers>=2.7.0
+google-genai>=1.0.0

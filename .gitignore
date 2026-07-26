@@ -1,0 +1,12 @@
+# Raw and processed CSV exports (large, regenerable from ingest.py / notebooks)
+data/complaints.csv
+data/complaints_model_ready.csv
+
+# Catch-all for any other CSVs accidentally saved in data/
+data/*.csv
+
+# Common local/dev clutter
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+*.pyc
